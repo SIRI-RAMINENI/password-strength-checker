@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Password Strength Checker</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+
+<div class="logo">
+🛡
+</div>
+
+<div class="heading">
+<h1>Password Strength Checker</h1>
+<p>Create a secure password that protects your account</p>
+</div>
+
+<button id="darkToggle">🌙</button>
+
+</header>
+
+
+<div class="grid">
+
+<!-- LEFT PANEL -->
+
+<div class="card">
+
+<h2>Enter Your Password</h2>
+
+<div class="password-box">
+
+<input type="password" id="password" placeholder="Type your password...">
+
+<span id="toggleEye">👁</span>
+
+</div>
+
+<div class="strength">
+
+<div class="strength-header">
+
+<span>Password Strength</span>
+
+<span id="strengthText">No Password</span>
+
+</div>
+
+<div class="bars">
+
+<div class="bar"></div>
+<div class="bar"></div>
+<div class="bar"></div>
+<div class="bar"></div>
+
+</div>
+
+</div>
+
+
+<div class="stats">
+
+<div class="stat">
+<h3>Entropy</h3>
+<p id="entropy">0 bits</p>
+</div>
+
+<div class="stat">
+<h3>Time to Crack</h3>
+<p id="crack">Instantly</p>
+</div>
+
+</div>
+
+
+<button class="generate" id="generateBtn">
+
+✨ Generate Strong Password
+
+</button>
+
+
+<div class="requirements">
+
+<h3>Password Requirements</h3>
+
+<div id="len" class="req">• At least 8 characters</div>
+<div id="upper" class="req">• Contains uppercase letter</div>
+<div id="lower" class="req">• Contains lowercase letter</div>
+<div id="num" class="req">• Contains number</div>
+<div id="sym" class="req">• Contains special character</div>
+
+</div>
+
+</div>
+
+
+<!-- RIGHT PANEL -->
+
+<div class="card">
+
+<h2>Security Tips</h2>
+
+<div class="tip">
+🔄 <b>Unique Passwords</b>
+<p>Never reuse passwords across different accounts</p>
+</div>
+
+<div class="tip">
+🔑 <b>Password Manager</b>
+<p>Use a password manager to store passwords securely</p>
+</div>
+
+<div class="tip">
+🛡 <b>Avoid Common Patterns</b>
+<p>Stay away from dictionary words and predictable patterns</p>
+</div>
+
+<div class="tip">
+🔒 <b>Long Passphrases</b>
+<p>Use memorable phrases instead of short passwords</p>
+</div>
+
+
+<!-- PRO TIP -->
+
+<div class="proTip">
+
+💡 <b>Pro Tip:</b>
+
+<p>
+A strong password should be at least <b>12 characters</b> long and include a mix of letters, numbers, and symbols.
+Consider using a passphrase made of random words for better memorability.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
