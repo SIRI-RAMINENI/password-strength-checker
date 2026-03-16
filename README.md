@@ -21,7 +21,7 @@ This project demonstrates password security concepts used in cybersecurity and s
 
 ## 🖥️ Preview
 
-![Project Screenshot](screenshot.png)
+![Project Screenshot](Screenshot 2026-03-16 152340.png)
 
 ---
 
